@@ -1,18 +1,30 @@
 {
   "homepages": [],
-  "source_base_path": "C:/Development/auth0/auth0-oidc-client-net/docs-source",
+  "source_base_path": "D:/auth0/auth0-oidc-client-net/docs-source",
   "xrefmap": "xrefmap.yml",
   "files": [
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.ASWebAuthenticationSessionBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.ASWebAuthenticationSessionBrowser.html",
+          "hash": "Kp7X0tmufhz9nGXb0u4zCA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
     {
       "type": "ManagedReference",
       "source_relative_path": "api/Auth0.OidcClient.ActivityMediator.MessageReceivedEventHandler.yml",
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.ActivityMediator.MessageReceivedEventHandler.html",
-          "hash": "w/0kknnp6901aX5Pvc5RkQ=="
+          "hash": "CH2RK0X7z5gC7xZosBOjYQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -21,7 +33,19 @@
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.ActivityMediator.html",
-          "hash": "WaJMCADsmFPE2s2CVrvvqw=="
+          "hash": "+brPVmWc678kUflwAn6m/Q=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.AndroidBrowserBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.AndroidBrowserBase.html",
+          "hash": "rxWLpnosnEbZEncGfxnTCg=="
         }
       },
       "is_incremental": false,
@@ -33,7 +57,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.Auth0Client.html",
-          "hash": "Xm+4UELX++wptDPqlNsVrA=="
+          "hash": "j6dXUjMafmXIm2WplN73DQ=="
         }
       },
       "is_incremental": false,
@@ -41,14 +65,62 @@
     },
     {
       "type": "ManagedReference",
-      "source_relative_path": "api/Auth0.OidcClient.Auth0ClientOptions.yml",
+      "source_relative_path": "api/Auth0.OidcClient.Auth0ClientActivity.yml",
       "output": {
         ".html": {
-          "relative_path": "api/Auth0.OidcClient.Auth0ClientOptions.html",
-          "hash": "FW1LT//3rtN15lu644oa0w=="
+          "relative_path": "api/Auth0.OidcClient.Auth0ClientActivity.html",
+          "hash": "yWkk7vl5khOuXs5U87o6kw=="
         }
       },
       "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.AutoSelectBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.AutoSelectBrowser.html",
+          "hash": "M7Syni09YPOdBlpghpdr0A=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.ChromeCustomTabsBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.ChromeCustomTabsBrowser.html",
+          "hash": "8t4Z/boiKrwoLW0ZGxyeRg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.IOSBrowserBase.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.IOSBrowserBase.html",
+          "hash": "tIFCilZhZOI4+4NUtv8uvA=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.Resource.Attribute.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.Resource.Attribute.html",
+          "hash": "uULQzbc20lUTStxTojb5qQ=="
+        }
+      },
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -57,10 +129,10 @@
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.Resource.String.html",
-          "hash": "BRkCEbcR/+fTC1845nDwbA=="
+          "hash": "260f8+QsgKTEItxRNgVrig=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -69,7 +141,67 @@
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.Resource.html",
-          "hash": "joWpZY6X+4bP44EpHnRK/w=="
+          "hash": "0+cLcIURpMu3m/lrEy/A5A=="
+        }
+      },
+      "is_incremental": true,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.SFAuthenticationSessionBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.SFAuthenticationSessionBrowser.html",
+          "hash": "HGbmVtkd90fO8spfO7ke2g=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.SFSafariViewControllerBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.SFSafariViewControllerBrowser.html",
+          "hash": "QK7auG28l/r+xf4S5r7sKg=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.SystemBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.SystemBrowser.html",
+          "hash": "FHMC8uasgnDTYhkeErPgOw=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.WebBrowserBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.WebBrowserBrowser.html",
+          "hash": "78vIgxg+UuIXwnTc3WjgjQ=="
+        }
+      },
+      "is_incremental": false,
+      "version": ""
+    },
+    {
+      "type": "ManagedReference",
+      "source_relative_path": "api/Auth0.OidcClient.WebViewBrowser.yml",
+      "output": {
+        ".html": {
+          "relative_path": "api/Auth0.OidcClient.WebViewBrowser.html",
+          "hash": "B7sn8wPr9Bkbain7PQvT+Q=="
         }
       },
       "is_incremental": false,
@@ -81,7 +213,7 @@
       "output": {
         ".html": {
           "relative_path": "api/Auth0.OidcClient.html",
-          "hash": "imtTQPZJwqKQuHz5/SHuUw=="
+          "hash": "t3nG7Vqy1CVq5WIk1FmlyA=="
         }
       },
       "is_incremental": false,
@@ -93,10 +225,10 @@
       "output": {
         ".html": {
           "relative_path": "api/index.html",
-          "hash": "8slsNCkDhJaK1tgYoZardg=="
+          "hash": "CH9W3OmNpxXQirn9GibnIQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -105,7 +237,7 @@
       "output": {
         ".html": {
           "relative_path": "api/toc.html",
-          "hash": "O0KJEWRWw6OAAUpKXRYV6A=="
+          "hash": "7wlOYUzyoFV1gBsSwkDUgw=="
         }
       },
       "is_incremental": false,
@@ -117,10 +249,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/advanced-scenarios/api-authorization.html",
-          "hash": "2cRBE0ZG6EEZzZMkMQ6/vg=="
+          "hash": "9TRgtC0Y8KZPyvfi25jEMg=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -129,10 +261,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/advanced-scenarios/refresh-tokens.html",
-          "hash": "+cey0x9trrIMmOpt0FITMA=="
+          "hash": "4abuc32mvFncCOdKnLLHBA=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -141,10 +273,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/advanced-scenarios/scopes.html",
-          "hash": "l5RR76hJom7vHT8evVKh+g=="
+          "hash": "uWLHtB2bGyJIKgIqQGKv0w=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -153,7 +285,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/getting-started/authentication.html",
-          "hash": "78yybaBhuHA1y2mPXIzQ+w=="
+          "hash": "I351zkDYtvt8RRu8vJckmw=="
         }
       },
       "is_incremental": false,
@@ -165,7 +297,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/getting-started/callbacks.html",
-          "hash": "815LBLa23XxJITbTD68hsw=="
+          "hash": "Jw5X02Bonalk5CTTF2B6qQ=="
         }
       },
       "is_incremental": true,
@@ -177,7 +309,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/getting-started/installation.html",
-          "hash": "0iUwYCH9wFuBEhp+CNvdWA=="
+          "hash": "YlRF7Vv1++cw2qM15gvM/g=="
         }
       },
       "is_incremental": true,
@@ -189,10 +321,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/intro.html",
-          "hash": "P+d6eQiwPb8F3zFiYdCQWw=="
+          "hash": "1r976c57Sp9B5Toi01wLKw=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -201,7 +333,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/migration/v2.html",
-          "hash": "IRNpNORZ6ZmUG/jy+/rluA=="
+          "hash": "IYagAkiERedgWz3OAFrBuQ=="
         }
       },
       "is_incremental": true,
@@ -213,10 +345,10 @@
       "output": {
         ".html": {
           "relative_path": "documentation/samples.html",
-          "hash": "sUcMzmZHdScGyls86mQ0wg=="
+          "hash": "qVnf7RInM9zvDhurYQpziQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -225,7 +357,7 @@
       "output": {
         ".html": {
           "relative_path": "documentation/toc.html",
-          "hash": "1XoDkeUIoUCtSVx1ppT5KA=="
+          "hash": "8QAx8TKoSDxkwnLHMNjRZw=="
         }
       },
       "is_incremental": false,
@@ -248,10 +380,10 @@
       "output": {
         ".html": {
           "relative_path": "index.html",
-          "hash": "h4UQKGrW9Mi4eFC9z9Az1A=="
+          "hash": "U5d5PQ8NUN5UIEFA3YRJzQ=="
         }
       },
-      "is_incremental": false,
+      "is_incremental": true,
       "version": ""
     },
     {
@@ -260,7 +392,7 @@
       "output": {
         ".html": {
           "relative_path": "toc.html",
-          "hash": "sYHzpiCUt34XtLNu4U6GlQ=="
+          "hash": "TvzZFFS5+ycAmafzvt6kJg=="
         }
       },
       "is_incremental": false,
@@ -271,26 +403,36 @@
     {
       "status": {
         "can_incremental": true,
-        "incrementalPhase": "build"
+        "incrementalPhase": "build",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {
         "TocDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor TocDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
-        },
-        "ConceptualDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
-        },
-        "ManagedReferenceDocumentProcessor": {
-          "can_incremental": true,
-          "incrementalPhase": "build"
+          "details": "Processor TocDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
         },
         "ResourceDocumentProcessor": {
           "can_incremental": false,
-          "details": "Processor ResourceDocumentProcessor cannot suppport incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
-          "incrementalPhase": "build"
+          "details": "Processor ResourceDocumentProcessor cannot support incremental build because the processor doesn't implement ISupportIncrementalDocumentProcessor interface.",
+          "incrementalPhase": "build",
+          "total_file_count": 0,
+          "skipped_file_count": 0
+        },
+        "ManagedReferenceDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 19,
+          "skipped_file_count": 7
+        },
+        "ConceptualDocumentProcessor": {
+          "can_incremental": true,
+          "incrementalPhase": "build",
+          "total_file_count": 11,
+          "skipped_file_count": 11
         }
       }
     },
@@ -298,7 +440,9 @@
       "status": {
         "can_incremental": true,
         "details": "Can support incremental post processing.",
-        "incrementalPhase": "postProcessing"
+        "incrementalPhase": "postProcessing",
+        "total_file_count": 0,
+        "skipped_file_count": 0
       },
       "processors": {}
     }

@@ -3,20 +3,28 @@
 <package>
   <metadata>
     <id>Auth0.OidcClient.WPF</id>
-    <version>2.4.0</version>
+    <version>2.4.3</version>
     <authors>Auth0</authors>
     <owners>Auth0</owners>
     <licenseUrl>https://opensource.org/licenses/Apache-2.0</licenseUrl>
     <projectUrl>https://github.com/auth0/auth0-oidc-client-net</projectUrl>
     <iconUrl>http://secure.gravatar.com/avatar/805765c256ff8617fcad483b5476faf2</iconUrl>
     <requireLicenseAcceptance>false</requireLicenseAcceptance>
-    <description>Auth0 OIDC Client for WPF applications</description>
+    <description>Auth0 OIDC Client for WPF apps</description>
     <releaseNotes>
+      Version 2.4.3
+      - Improved XML code documentation.
+      - Update IdentityModel.OidcClient2 to 2.9.2
+
+      Version 2.4.2
+      - Clarified RedirectUri and PostLogoutRedirectUri on Auth0ClientOptions in doc comments
+      - Debug log now helpfully reports Callback and Logout URLs to whitelist in dev mode
+
       Version 2.4.0
       - Add support for closing the browser window (thanks @aashikgowda)
       - PlatformWebView class is deprecated. When it comes to config.Browser either:
-        - Leave it null for ongoing best default (recommended)
-        - Assign an instance of WebBrowserBrowser passing a custom Window function if customization needed
+      - Leave it null for ongoing best default (recommended)
+      - Assign an instance of WebBrowserBrowser passing a custom Window function if customization needed
       - Add return code status for Logout (thanks @jsauve)
       - Add support to get the user claims from the userinfo endpoint (thanks @OrihuelaConde)
       - Add default for logout redirect
@@ -32,31 +40,18 @@
       - Add support to log the user out and clear the Auth0 SSO cookie
 
       Version 2.1.0
-      - Fixed issue with browser not opening when running on Android 6.0
       - Updated dependency on IdentityModel.OidcClient to v2.7.0
-
-      Version 2.0.0
-      - Support for Xamarin Forms
-
-      Version 1.2.0
-      - Internal updates
-
-      Version 1.1.0
-      - Allow overriding of RedirectUri
-
-      Version 1.0.0
-      - Initial version of Package
     </releaseNotes>
     <copyright>Copyright 2017-2019 Auth0, Inc.</copyright>
     <tags>Auth0 OIDC WPF</tags>
     <dependencies>
-      <group targetFramework="net452">
-        <dependency id="Auth0.OidcClient.Core" version="2.4.0" />
+      <group targetFramework="net462">
+        <dependency id="Auth0.OidcClient.Core" version="2.4.3" />
       </group>
     </dependencies>
   </metadata>
   <files>
-    <file src="..\src\Auth0.OidcClient.WPF\bin\Release\Auth0.OidcClient.dll" target="lib\net452" />
-    <file src="..\src\Auth0.OidcClient.WPF\bin\Release\Auth0.OidcClient.xml" target="lib\net452" />
+    <file src="..\src\Auth0.OidcClient.WPF\bin\Release\Auth0.OidcClient.dll" target="lib\net462" />
+    <file src="..\src\Auth0.OidcClient.WPF\bin\Release\Auth0.OidcClient.xml" target="lib\net462" />
   </files>
 </package>

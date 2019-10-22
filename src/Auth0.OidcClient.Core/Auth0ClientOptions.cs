@@ -4,7 +4,7 @@ using System.Net.Http;
 namespace Auth0.OidcClient
 {
     /// <summary>
-    /// Specifies the options for an instance of the <see cref="Auth0Client"/> class.
+    /// Specifies options that can be passed to <see cref="Auth0ClientBase"/> implementations.
     /// </summary>
     public class Auth0ClientOptions
     {
@@ -70,11 +70,13 @@ namespace Auth0.OidcClient
         /// Allow overriding the BackchannelHandler.
         /// </summary>
         /// <example>
+        /// <code>
         /// var handler = new HttpClientHandler();
         /// var options = new Auth0ClientOptions
         /// {
         ///    BackchannelHandler = handler
         /// };
+        /// </code>
         /// </example>
         public HttpMessageHandler BackchannelHandler { get; set; }
 
@@ -82,21 +84,27 @@ namespace Auth0.OidcClient
         /// Override the Redirect URI used to return from logout.
         /// </summary>
         /// <remarks>
-        /// This should only be done in exceptional circumstances.
+        /// Defaults to a platform-specific value you can observe in the debug console window when performing a logout.
+        /// On iOS this is made from the app bundle ID and on Android from a lower-cased version of the package name.
+        /// Whether you use the default or manually set this value it must be added to the 
+        /// Allowed Logout URLs for this application/client to allow the logout process to complete.
         /// </remarks>
         public string PostLogoutRedirectUri { get; set; }
 
-		/// <summary>
-		/// Override the the Redirect URI used to return from login.
-		/// </summary>
-		/// <remarks>
-		/// This should only be done in exceptional circumstances
-		/// </remarks>
-		public string RedirectUri { get; set; }
+        /// <summary>
+        /// Override the the Redirect URI used to return from login.
+        /// </summary>
+        /// <remarks>
+        /// Defaults to a platform-specific value you can observe in the debug console window when performing a login.
+        /// On iOS this is made from the app bundle ID and on Android from a lower-cased version of the package name.
+        /// Whether you use the default or manually set this value it must be added to the 
+        /// Allowed Callback URLs for this application/client to allow the login process to complete.
+        /// </remarks>
+        public string RedirectUri { get; set; }
 
         /// <summary>
-        /// Create a new instance of the <see cref="Auth0ClientOptions"/> class used to configure the options for
-        /// passing to the constructor of <see cref="Auth0Client"/>.
+        /// Create a new instance of the <see cref="Auth0ClientOptions"/> class used to configure options for
+        /// <see cref="Auth0ClientBase"/> implementations by way of their constructors.
         /// </summary>
         public Auth0ClientOptions()
         {

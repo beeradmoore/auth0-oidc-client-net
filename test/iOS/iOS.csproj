@@ -11,6 +11,7 @@
     <AssemblyName>iOSTestApp</AssemblyName>
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|iPhoneSimulator' ">
     <DebugSymbols>true</DebugSymbols>
@@ -128,7 +129,7 @@
   </ItemGroup>
   <ItemGroup>
     <PackageReference Include="IdentityModel.OidcClient">
-      <Version>2.9.0</Version>
+      <Version>2.9.1</Version>
     </PackageReference>
   </ItemGroup>
   <ItemGroup>
